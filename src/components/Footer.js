@@ -38,7 +38,7 @@ const Footer = () => {
   ];
   return (
     <div>
-      <div className="max-w-[1176px] mx-auto mt-14 ">
+      <div className="max-w-[1176px] mx-auto mt-14">
         <h3 className="font-poppins font-bold text-[25px]/[38px] text-center text-[#323743]">
           Subscribe to our newsletter
         </h3>
@@ -147,7 +147,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[1176px] mx-auto flex justify-between items-center mt-9">
+      <div className="max-w-[1176px] mx-auto flex justify-between items-center mt-9 mb-[35px]">
         <select className=" w-[127px] py-[9px] px-3 rounded bg-[#EAECF0] focus:outline-none text-sm/[22px] font-manrope text-[#171A1F]">
           <option value={"english"}>English</option>
           <option value={"urdu"}>Urdu</option>
