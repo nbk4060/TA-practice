@@ -3,9 +3,8 @@ import Button from "./reusableComponents/Button";
 import Cards from "./reusableComponents/Cards";
 import CustomAvatar from "./reusableComponents/CustomAvatar";
 import Input from "./reusableComponents/Input";
-import Footer from "./Footer";
 
-const HeroSection = () => {
+const Body = () => {
   const images = [
     "/assets/institutions-1.png",
     "/assets/institutions-2.png",
@@ -298,7 +297,7 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="flex items-center gap-[13px] mt-[25px] px-[11px]">
-            <img src="/assets/phone-1.svg" alt="contact" />
+            <img src="/assets/Phone-1.svg" alt="contact" />
             <p className="font-manrope text-sm/[42px] font-normal text-[#171A1F]">
               (817) 810-3785
             </p>
@@ -456,9 +455,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };
 
-export default HeroSection;
+export default Body;
