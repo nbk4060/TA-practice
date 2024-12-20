@@ -14,7 +14,7 @@ const Input = ({
         {label}
       </label>
       <input
-        className="rounded-[3px] border border-[#BDC1CA] font-manrope font-normal text-base/[26px] text-[#BDC1CA] py-[7px] px-4 w-full focus:outline-none"
+        className="rounded-[3px] border border-[#BDC1CA] font-manrope font-normal text-base/[26px] text-[#BDC1CA] py-[6px] px-4 w-full focus:outline-none"
         type={type}
         name={name}
         value={value}

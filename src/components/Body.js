@@ -302,7 +302,7 @@ const Body = () => {
               (817) 810-3785
             </p>
           </div>
-          <div className="flex items-center gap-[13px] border border-[#00529E] px-[11px] py-[14px] rounded-lg mt-[11px]">
+          <div className="flex items-center gap-[13px] border border-[#00529E] px-[11px] py-[3.5px] rounded-lg mt-[11px]">
             <img src="/assets/email.svg" alt="email" />
             <p className="font-manrope text-sm/[42px] font-normal text-[#171A1F]">
               htaylor@hotmail.com
@@ -360,6 +360,7 @@ const Body = () => {
                   className="rounded-[3px] border border-[#BDC1CA] font-manrope font-normal text-base/[26px] text-[#BDC1CA] py-[7px] px-4 w-full focus:outline-none"
                   name={"businessName"}
                 >
+                   <option value={""} selected>Choose a service</option>
                   <option value={"service-1"}>Service 1</option>
                   <option value={"service-2"}>Service 2</option>
                   <option value={"service-3"}>Service 3</option>
@@ -372,14 +373,14 @@ const Body = () => {
                 How can we help?
               </label>
               <textarea
-                rows={4}
-                className="rounded-[3px] border border-[#BDC1CA] font-manrope font-normal text-base/[26px] text-[#BDC1CA] py-[7px] px-4 w-full focus:outline-none"
+                rows={3}
+                className="rounded-[3px] border border-[#BDC1CA] font-manrope font-normal text-base/[26px] text-[#BDC1CA] py-[7px] px-4 w-full focus:outline-none min-h-[112px]"
                 placeholder="Enter your message here"
               />
             </div>
             <Button
               text={"Send my message"}
-              className="rounded bg-[#E98A14] p-2.5 font-manrope text-[#171A1F] text-base/[26px] font-normal flex justify-center items-center gap-2 mt-4 w-full"
+              className="rounded bg-[#E98A14] px-2.5 py-[7px] font-manrope text-[#171A1F] text-base/[26px] font-normal flex justify-center items-center gap-2 mt-4 w-full"
             />
           </form>
         </div>
