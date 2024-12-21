@@ -90,7 +90,7 @@ const Body = () => {
             />
             <Button
               text={"Get a Quote"}
-              className="rounded text-white px-[27px] py-[9px] text-base/[22px] font-normal"
+              className="rounded text-white px-[27px] py-[9px] text-base/[22px] font-manrope font-normal"
             />
           </div>
         </div>
@@ -267,7 +267,7 @@ const Body = () => {
           />
           <Button
             text={"Download E-Brochure"}
-            className="rounded text-white text-sm/[22px] font-normal underline"
+            className="rounded text-white text-sm/[22px] font-manrope font-normal underline"
           />
         </div>
         <img
@@ -356,16 +356,25 @@ const Body = () => {
                 <label className="font-manrope font-bold text-base/[26px] text-white">
                   Service
                 </label>
-                <select
-                  className="rounded-[3px] border border-[#BDC1CA] font-manrope font-normal text-base/[26px] text-[#BDC1CA] py-[7px] px-4 w-full focus:outline-none"
-                  name={"businessName"}
-                >
-                   <option value={""} selected>Choose a service</option>
-                  <option value={"service-1"}>Service 1</option>
-                  <option value={"service-2"}>Service 2</option>
-                  <option value={"service-3"}>Service 3</option>
-                  <option value={"service-4"}>Service 4</option>
-                </select>
+                <div className="relative">
+                  <img
+                    src="/assets/Nav-down.svg"
+                    alt="arrow"
+                    className="absolute right-[15px] top-2.5"
+                  />
+                  <select
+                    className="appearance-none rounded-[3px] border border-[#BDC1CA] font-manrope font-normal text-base/[26px] text-[#BDC1CA] py-[6px] px-4 w-full focus:outline-none"
+                    name={"businessName"}
+                  >
+                    <option value={""} selected>
+                      Choose a service
+                    </option>
+                    <option value={"service-1"}>Service 1</option>
+                    <option value={"service-2"}>Service 2</option>
+                    <option value={"service-3"}>Service 3</option>
+                    <option value={"service-4"}>Service 4</option>
+                  </select>
+                </div>
               </div>
             </div>
             <div className="flex flex-col gap-4 w-full mt-4">
@@ -451,7 +460,7 @@ const Body = () => {
             />
             <Button
               text={"Learn More"}
-              className="rounded text-white px-[21px] py-[7px] text-base/[22px] font-normal underline"
+              className="rounded text-white px-[21px] py-[7px] text-base/[22px] font-manrope font-normal underline"
             />
           </div>
         </div>

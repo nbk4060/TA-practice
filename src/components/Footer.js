@@ -148,11 +148,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="max-w-[1176px] mx-auto flex justify-between items-center mt-9 mb-[35px]">
-        <select className=" w-[127px] py-[9px] px-3 rounded bg-[#EAECF0] focus:outline-none text-sm/[22px] font-manrope text-[#171A1F]">
+        <div className="relative">
+            <img src="/assets/Chevron.svg" alt="arrow" className="absolute right-[11px] top-3"/>
+        <select className="appearance-none w-[127px] py-[9px] px-3 rounded bg-[#EAECF0] focus:outline-none text-sm/[22px] font-manrope text-[#171A1F]">
           <option value={"english"}>English</option>
           <option value={"urdu"}>Urdu</option>
           <option value={"german"}>German</option>
         </select>
+        </div>
         <div className="flex items-center gap-5">
           <span className="text-sm/[22px] font-manrope font-normal text-[#424856]">© 2024 Brand, Inc.</span>
           <ul className="flex items-center text-sm/[22px] font-manrope font-normal text-[#424856]">

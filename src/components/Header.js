@@ -28,7 +28,7 @@ const Header = () => {
         <span>
           <img src="/assets/Phone.svg" alt="phone-icon" />
         </span>
-        <span>Request Demo</span>
+        <span className="text-base/[26px] font-manrope font-normal">Request Demo</span>
       </button>
     </div>
   );
